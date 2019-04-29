@@ -1,7 +1,7 @@
 // ##############################
 // // // javascript library for creating charts
 // #############################
-var Chartist = require("chartist");
+import Chartist from "chartist";
 
 // ##############################
 // // // variables used to create animation on charts
@@ -183,8 +183,4 @@ const completedTasksChart = {
   }
 };
 
-module.exports = {
-  dailySalesChart,
-  emailsSubscriptionChart,
-  completedTasksChart
-};
+export { dailySalesChart, emailsSubscriptionChart, completedTasksChart };
